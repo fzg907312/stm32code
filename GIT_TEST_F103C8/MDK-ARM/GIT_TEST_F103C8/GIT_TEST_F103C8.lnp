@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"git_test_f103c8\startup_stm32f103xb.o"
+"git_test_f103c8\main.o"
+"git_test_f103c8\gpio.o"
+"git_test_f103c8\stm32f1xx_it.o"
+"git_test_f103c8\stm32f1xx_hal_msp.o"
+"git_test_f103c8\stm32f1xx_hal_gpio_ex.o"
+"git_test_f103c8\stm32f1xx_hal_tim.o"
+"git_test_f103c8\stm32f1xx_hal_tim_ex.o"
+"git_test_f103c8\stm32f1xx_hal.o"
+"git_test_f103c8\stm32f1xx_hal_rcc.o"
+"git_test_f103c8\stm32f1xx_hal_rcc_ex.o"
+"git_test_f103c8\stm32f1xx_hal_gpio.o"
+"git_test_f103c8\stm32f1xx_hal_dma.o"
+"git_test_f103c8\stm32f1xx_hal_cortex.o"
+"git_test_f103c8\stm32f1xx_hal_pwr.o"
+"git_test_f103c8\stm32f1xx_hal_flash.o"
+"git_test_f103c8\stm32f1xx_hal_flash_ex.o"
+"git_test_f103c8\stm32f1xx_hal_exti.o"
+"git_test_f103c8\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "GIT_TEST_F103C8\GIT_TEST_F103C8.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "GIT_TEST_F103C8.map" -o GIT_TEST_F103C8\GIT_TEST_F103C8.axf
